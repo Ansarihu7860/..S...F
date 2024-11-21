@@ -138,7 +138,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
   
   if ((event.body.toLowerCase() == "😒") || (event.body.toLowerCase() == "😒😒")) {
-     return api.sendMessag("ओले ओले मेला बाबू 😛✌️", threadID);
+     return api.sendMessag("ओले ओले मेला बाबू ✌️", threadID);
    };
 
    if ((event.body.toLowerCase() == "🤦🏻‍♂") || (event.body.toLowerCase() == "🤦🏻‍♀")) {
